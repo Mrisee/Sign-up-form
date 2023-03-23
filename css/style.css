@@ -39,11 +39,6 @@ aside, nav, footer, header, section, main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 ul, ul li {
   list-style: none;
 }
@@ -98,4 +93,214 @@ label {
 
 legend {
   display: block;
+}
+
+body {
+  font-family: "Verdana", serif;
+}
+
+.content {
+  padding: 100px 15px;
+}
+
+.sign-in_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 900px;
+  min-height: 600px;
+  margin: auto;
+  -webkit-box-shadow: 3px 4px 3px rgb(138, 138, 138);
+          box-shadow: 3px 4px 3px rgb(138, 138, 138);
+  position: relative;
+}
+
+.column1 {
+  background-color: #6b8168;
+  width: 50%;
+  position: relative;
+  left: 0px;
+  z-index: 2;
+}
+
+.column1__item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  opacity: 1;
+}
+
+.column1__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  padding: 50px 15px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+.column1__content p {
+  margin: 10px 0 20px 0;
+}
+
+.column1__button,
+.column1__hide-button {
+  text-decoration: none;
+  display: block;
+  line-height: 25px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #6b8168;
+  border: 2px solid white;
+  color: white;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.column1__button:hover,
+.column1__hide-button:hover {
+  border: 2px solid #ffeec9;
+  background-color: #60745d;
+  color: #ffeec9;
+  cursor: pointer;
+}
+
+.column1__hide-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  padding: 50px 15px;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  opacity: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.column2 {
+  background-color: #ffeec9;
+  width: 50%;
+  position: relative;
+  right: 0px;
+  z-index: 1;
+}
+
+.column2__item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+}
+
+.column2__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: black;
+  padding: 50px 15px;
+  position: absolute;
+  top: 12%;
+  width: 100%;
+}
+
+.column2__button,
+.column2__hide-button {
+  text-decoration: none;
+  display: block;
+  line-height: 25px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #6b8168;
+  border: none;
+  color: white;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.column2__button:hover,
+.column2__hide-button:hover {
+  background-color: #84a380;
+  cursor: pointer;
+}
+
+.column2__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 80px;
+  margin: 10px 0 20px 0;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: rgb(114, 114, 114);
+  -webkit-box-shadow: 0px 0px 3px rgb(151, 151, 151);
+          box-shadow: 0px 0px 3px rgb(151, 151, 151);
+}
+
+.column2__logs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+.column2__logs p {
+  line-height: 25px;
+  font-size: 14px;
+  color: rgba(87, 83, 76, 0.7254901961);
+  margin-bottom: 5px;
+}
+
+.logs {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #fff5e0;
+  line-height: 25px;
+  font-size: 14px;
+  color: rgba(87, 83, 76, 0.7254901961);
+  border: none;
+  padding: 5px;
+}
+
+.column2__hide-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+  padding: 50px 15px;
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  opacity: 0;
+  right: 0;
+  visibility: hidden;
 }
