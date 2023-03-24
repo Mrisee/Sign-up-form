@@ -114,6 +114,7 @@ body{
     margin: auto;
     box-shadow: 3px 4px 3px rgb(138, 138, 138);
     position: relative;
+    background-color: #ffeec9;
 }
 .column1 {
     background-color: #6b8168;
@@ -134,7 +135,7 @@ body{
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    color: #fff;
+    color: #ffeec9;
     padding: 50px 15px;
     position: absolute;
     top: 25%;
@@ -154,22 +155,22 @@ body{
     border-radius: 30px;
     margin: auto;
     background-color: #6b8168;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #ffeec9;;
+    color: #ffeec9;;
     transition-duration: 0.3s;
 }
 .column1__button:hover,
 .column1__hide-button:hover{
-    border: 2px solid #ffeec9;
+    border: 2px solid #ffffff;
     background-color: #60745d;
-    color: #ffeec9;
+    color: #ffffff;
     cursor: pointer;
 }
 .column1__hide-content {
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    color: #fff;
+    color: #ffeec9;;
     padding: 50px 15px;
     position: absolute;
     top: 25%;
